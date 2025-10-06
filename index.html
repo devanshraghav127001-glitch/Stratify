@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stratify — Registration</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <div class="card">
+      <h1>Stratify by Raaj Chauhan</h1>
+      <p class="sub">Register for ₹99</p>
+
+      <form id="registrationForm">
+        <div class="field"><label>Full Name<input name="fullname" required /></label></div>
+        <div class="field"><label>Phone Number<input name="phone" type="tel" required /></label></div>
+        <div class="field"><label>Address<input name="address" required /></label></div>
+        <div class="field"><label>Age<input name="age" type="number" required /></label></div>
+        <div class="field"><label>WhatsApp Number<input name="whatsapp" type="tel" required /></label></div>
+        <div class="field"><label>City<input name="city" required /></label></div>
+        <div class="field"><label>Email Address<input name="email" type="email" required /></label></div>
+
+        <button type="submit" id="payBtn">Pay ₹99 &amp; Submit</button>
+      </form>
+
+      <div id="status" class="status" aria-live="polite"></div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
