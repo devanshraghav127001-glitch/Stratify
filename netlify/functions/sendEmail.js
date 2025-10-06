@@ -8,7 +8,7 @@ exports.handler = async function(event, context) {
     // The SMTP credentials must be set as Netlify environment variables:
     // SMTP_HOST (optional), SMTP_PORT (optional), SMTP_USER, SMTP_PASS
     // EMAIL_TO (default to nefcore.sec@gmail.com)
-    const to = process.env.EMAIL_TO || 'nefcore.sec@gmail.com';
+    const to = process.env.EMAIL_TO || 'raajchauhanofficial@gmail.com';
     const from = process.env.EMAIL_FROM || process.env.SMTP_USER || 'Stratify <no-reply@stratify.example>';
 
     const transporter = nodemailer.createTransport({
